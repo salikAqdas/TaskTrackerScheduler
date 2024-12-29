@@ -13,6 +13,6 @@ jobs:
 
       - name: Trigger Netlify Function
         run: |
-          curl -X GET https://your-netlify-site-name.netlify.app/.netlify/functions/open-url
+          curl -X GET https://magenta-marzipan-0c5672.netlify.app//.netlify/functions/open-url
         env:
           NETLIFY_SITE_URL: ${{ secrets.NETLIFY_SITE_URL }}
