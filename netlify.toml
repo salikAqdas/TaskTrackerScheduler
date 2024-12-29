@@ -1,2 +1,8 @@
 [build]
-  functions = "functions"
+  functions = "functions"  # This is where your serverless functions are located
+
+[[redirects]]
+  from = "/.netlify/functions/*"
+  to = "/index.html"
+  status = 200
+  force = true

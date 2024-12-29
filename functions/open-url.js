@@ -1,7 +1,7 @@
 const open = require('open');
 
 // URL you want to open
-const url = 'http://example.com';  // Replace with your desired URL
+const url = 'http://tasktracker.finesse-cs.tech';  // Replace with your desired URL
 
 exports.handler = async function(event, context) {
   try {
